@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveForward : MonoBehaviour
 {
     [SerializeField] private float speed;
+
     void Update()
     {
         //Vector3.forwardは前方向（正確にはz方向=青色の軸）
